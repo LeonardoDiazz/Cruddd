@@ -1,0 +1,112 @@
+.root {
+    -fx-background-color: #1e1e2f; /* Fondo principal oscuro */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ====== TABLA ====== */
+.table-view {
+    -fx-background-color: #2a2a3d; /* Fondo de tabla */
+    -fx-border-color: #3e3e55;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3b4b63; /* Encabezado de tabla */
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ffffff;
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.text-field, .text-area, .combo-box, .date-picker {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #ffffff;
+    -fx-background-color: #2f2f45;
+    -fx-text-fill: #ffffff;        /* Texto escrito en blanco */
+    -fx-prompt-text-fill: #ffffff; /* Texto placeholder en gris claro */
+    -fx-padding: 5;
+}
+
+.text-area {
+    -fx-control-inner-background: #2f2f45;
+}
+
+
+/* ====== BOTONES ====== */
+.button {
+    -fx-text-fill: #121212;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+/* Agregar (Verde elegante) */
+.button-agregar {
+    -fx-background-color: #ffffff;
+}
+.button-agregar:hover {
+    -fx-background-color: #ffffff;
+}
+.button-agregar:pressed {
+    -fx-background-color: #ffffff;
+}
+
+/* Editar (Naranja suave) */
+.button-editar {
+    -fx-background-color: #fffbf8;
+}
+.button-editar:hover {
+    -fx-background-color: #ca6f1e;
+}
+.button-editar:pressed {
+    -fx-background-color: #a35414;
+}
+
+/* Eliminar (Rojo elegante) */
+.button-eliminar {
+    -fx-background-color: #ededed;
+}
+.button-eliminar:hover {
+    -fx-background-color: #070707;
+}
+.button-eliminar:pressed {
+    -fx-background-color: #050505;
+}
+
+/* Limpiar (Gris neutral) */
+.button-limpiar {
+    -fx-background-color: #ffffff;
+}
+.button-limpiar:hover {
+    -fx-background-color: #ffffff;
+}
+.button-limpiar:pressed {
+    -fx-background-color: #ffffff;
+}
+
+/* Color blanco para las etiquetas */
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+/* Texto blanco dentro de la tabla */
+.table-view {
+    -fx-text-fill: #ffffff;
+}
+
+/* Placeholder de tabla (cuando está vacía) */
+.table-view .placeholder .label {
+    -fx-text-fill: #bbbbbb; /* gris claro para diferenciarlo */
+}
